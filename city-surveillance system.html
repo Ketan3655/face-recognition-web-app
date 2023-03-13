@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Construction site-page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <style>
+    .hero-section{
+      background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(assets/img/hero-bg.jpg);
+      position: relative;
+      height: 1000vh;
+      min-height: 0;
+    }
+    .hero-section,
+    .hero-section>.container>.row {
+     height: 200vh;
+     min-height: 900px;
+    }
+    .hero-section p {
+     font-size: 18px;
+     color: #fff;
+    }
+    .btn.btn-outline-white {
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    }
+
+    .btn {
+    border: none;
+    padding: 15px 30px !important;
+    }
+    .hero-section img{
+      margin-left: 9rem;
+      
+    }
+    #hero image p{
+      margin-left: -2rem;
+    }
+    .hero-section p{
+      margin-left: 1.5rem;
+      font-size: 22px;
+    }
+    .hero-section h1{
+      margin-top: -0.4rem;
+    }
+    #validate_form{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+    }
+
+    .my-float {
+      margin-top: 16px;
+    }
+
+    input[type=text],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      margin-left: 120px;
+    }
+
+    label {
+      padding: 12px 10px 12px 45px;
+      display: inline-block;
+    }
+
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 40px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 10px 0 0 120px;
+    }
+
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+
+
+
+
+    .col-75 {
+      float: left;
+      width: 65%;
+      margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+      
+      
+
+    
+
+    
+    @media screen and (max-width: 992px) {
+    .hero-section h1 {
+      font-size: 10px;  
+  }
+    .hero-section img{
+
+    }
+}
+  </style>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="hero-section" id="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col hero-text-image">
+            <div class="row">
+              <div class="col iphone-wrap" id="img">
+                <h1  style="color:aliceblue;   text-align:center;      font-size: 50px;" data-aos="fade-right">City-Survillance-System</h1>
+
+                
+                <img src="assets/img/ct1" alt="Image" data-aos="fade-left" style="align-items:center;" width="500px" height="300px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="assets/img/ct2" alt="Image" data-aos="fade-left" style="align-items:center;" width="500px" height="300px">
+               
+              </div>
+              <div class="col text-center text-lg-start">
+                
+                <p class="mb-5" data-aos="fade-right" data-aos-delay="100" style="color:aliceblue">A smart surveillance system integrates sensors and computer vision into a traditional CCTV system, enabling it to perform identity verification, send instant alerts to security staff, and manage access control – all to further protect an organization’s property and enhance employee safety.Traditional security systems require security personnel to observe the premises and oversee all movement to verify guests and spot intruders. Smart surveillance systems empowered by facial recognition technology verify identities by mapping the facial identity of the person and providing real-time alerts when pre-defined events occur, such as a block-listed person entering a restricted area, or a VIP guest arriving at the reception area.</p>
+            
+                <p class="mb-5" data-aos="fade-right" data-aos-delay="100" style="color:aliceblue">Facial recognition technology increases efficiency and reliability within biometric verification to avoid human error. Advanced facial recognition software like FaceMe can even integrate with time and attendance systems to automatically track and report employee clock-in/out history.Due to facial recognition’s high accuracy rate and recognition speed, organizations can better allocate their personnel resources and shorten reaction time, reducing overall operational costs in the long term</p>
+                &nbsp;&nbsp;
+                <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500" style="align-items: center;"><a href="index.html" class="btn btn-outline-white">Home page </a></p>
+                &nbsp;&nbsp;
+                <div id="message" style="display:none;">Thank you for your interest with Bonrix Software Systems, We have received
+                  your business inquiry and we will revert/contact back you soon with proper reply. In any case of immediate attention
+                  please feel free to communication on following address.
+                  Landaline: +91-79-26426364
+                  Mobile No.: +91-94290-45500 / +91-94260-45500
+                  Email: info@bonrix.net / bonrix@gmail.com / sales.bonrix@gmail.com
+                  Google Hangout: bonrix@gmail.com / sales.bonrix@gmail.com
+                  Skype: bonrix_sms / sales.bonrix
+                  WhatsApp: +91-94290-45500 / +91-94260-45500</div>
+                <section id="content">
+          
+                  <div class="container" style="background-color: #e0dddd;
+                  padding: 20px;
+                  width:50%;
+                  margin: 50px auto;
+                  box-shadow:rgba(0, 0, 0, 0.55) 15px 15px 15px 15px;">
+                    <h1 align="center">Customer Enquiry Form </h1><hr>
+                    <form id="idForm"  method="post" class="wpcf7-form" novalidate="novalidate">
+                      <div class="row">
+        
+                        <div class="col-75">
+                          <input type="text" class=" form-control ss-q-short"  row="3" cols="30"  name="fullname" id="fullname" placeholder="Full Name">
+                        </div>
+                      </div>
+                      <div class="row">
+              
+                        <div class="col-75">
+                          <input type="text" class="form-control ss-q-short" name="email" id="email" placeholder="Email ">
+                        </div>
+                      </div>
+                      <div class="row">
+              
+                        <div class="col-75">
+                          <input type="text" class="form-control ss-q-short" name="mobile" id="mobile" placeholder="Mobile No">
+                        </div>
+                      </div>
+                      <div class="row">
+              
+                        <div class="col-75">
+                          <textarea id="entry_1703729325" class="ss-q-short" name="entry.1703729325" required
+                            placeholder="Write something.." style="height:100px"></textarea>
+                        </div>
+                      </div>
+                      <input type="hidden"  name="catname" id="catname" value="Face Recognition" >
+                      <input type="hidden" name="category" id="category"  value="4661">
+                       <input type="hidden"  name="subject" id="subject" value="Business Inquiry from  AttendanceSystem.bonrix.in">
+                      <input type="hidden" value="https://bonrix.co.in/monitor-payment&banking-notification.html" id="entry_489829062"
+                        name="entry.489829062">
+                      <div class="row">
+                        <input type="submit" value="Submit" onClick="return submit_onclick()" class="wpcf7-form-control wpcf7-submit">
+                      </div>
+
+                     
+
+                       
+                    </form>
+          
+                  </div>
+                </section>
+                &nbsp;&nbsp;
+
+                <script>
+
+                  function name_onblur() {
+                x=document.myform.fullname.value ;
+                if(x.length==0)
+                  {
+                   alert("Please Enter Your Name");
+                  return false;
+                  }
+                  for(var i=0;i<x.length;i++)
+                  {
+                        y=x.charAt(i);
+                    if(y==' ')
+                        {
+                        }
+                        else if(y>=0 || y<=9)
+                        {
+                         window.alert("Invalid Name");
+                         return false;
+                         break;
+                         }
+                  }
+                  
+                return true;
+                }
+                
+                function email_onblur() {
+                at=document.myform.email.value.indexOf("@"); 
+                
+                if (at == -1)
+                  {
+                  alert("Not a Valid E-mail Address")
+                  return false
+                  }
+                return true;
+                }
+                
+                function phone_onblur() {
+                x= document.myform.mobile.value;
+                if(x.length==0)
+                  {
+                   alert("Please Enter Your Phone No.");
+                  return false;
+                  }
+                for(var i=0;i<x.length;i++)
+                      {
+                        y=x.charAt(i);
+                          
+                        if(y>0 || y<9 || y=='+')
+                        {
+                        }
+                        else
+                           {
+                           window.alert("Phone No. Must be Digit only"); 
+                           return false;
+                           break; 
+                           }
+                        }
+                }
+                  $(document).ready(function () {
+                    //$("#location").val(window.location)
+                // process the form/*
+                
+                // process the form/*  
+                
+                $('form').submit(function (event) {
+                
+                
+                
+                    // process the form
+                    $.ajax({
+                      type: 'POST', // define the type of HTTP verb we want to use (POST for our form)
+                      url: 'https://script.google.com/macros/s/AKfycbxuatQaoAzO3ZuwhGyP4f5lTg_3xr9bDLR89DR8QR-sd7jAiJShdy3f24Jc9XE69R2i/exec?location='+window.location,
+                      data: $("#idForm").serialize(), // our data object
+                      dataType: 'json', // what type of data do we expect back from the server
+                      encode: true,
+                      success: function (data, textStatus, xhr) {
+                        alert(xhr.status);
+                        console.log(xhr.status);
+                      }, error: function (XMLHttpRequest, textStatus, errorThrown) {
+                  
+                        $('#idForm')[0].reset();
+                        alert($("#message").html());
+                      }
+                    })
+                      .done(function (data) {
+                  
+                        alert(data);
+                        console.log(data);
+                      });
+                  
+                    // stop the form from submitting the normal way and refreshing the page
+                    event.preventDefault();
+                  });
+                  
+                  });
+                      function loadData()
+                      {
+                  
+                      }
+                </script>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    
+
+
+</body>
+</html>
